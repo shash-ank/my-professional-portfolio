@@ -10,7 +10,7 @@ Welcome to my portfolio project! This project showcases my skills, projects, and
 
   
 ## Demo 
-You can view the live demo of my portfolio [here](https://shash-ank.github.io/my-professional-portfolio/).
+You can view the live demo of my portfolio [here](https://shash-ank.github.io/krishnas-professional-portfolio/).
 
 ## Features 
 - Sections for welcome, projects, skills, resume, and contact
@@ -30,11 +30,11 @@ You can view the live demo of my portfolio [here](https://shash-ank.github.io/my
 To set up this project locally, follow these steps: 
 1. **Clone the repository**:
    ```bash
-    git clone https://github.com/shash-ank/my-professional-portfolio.git
+    git clone https://github.com/shash-ank/krishnas-professional-portfolio.git
    ```
 3. **Navigate to the project directory**:
 ```bash
- cd my-professional-portfolio
+ cd krishnas-professional-portfolio
 ```
 4. Open the project in your preferred code editor.
 5. Open index.html in your browser to view the portfolio.
