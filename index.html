@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Shashank Yadava - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <header class="navbar">
+        <h2 id="portfolio-title">Portfolio</h2>
+        <nav id="navbar" >
+
+            <div class="menu-icon" id="menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#welcome-section">My info</a></li>
+                <li><a href="#skills-certificates-section">Skills & Certificates</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="scroll-container">
+    <section id="welcome-section" class="section ">
+        <h1>Welcome</h1>
+        <h2>I am Krishna Shashank</h2>
+       <h3 >An Aspiring Software Developer</h3>
+        <div class="scroll-indicator">&#9660;</div>
+    </section>
+
+   
+
+    <section id="skills-certificates-section" class="section">
+        <h2>My Skills</h2>
+        <div class="skills-list">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">Java</div>
+            <div class="skill">Python</div>
+            <div class="skill">C++</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Flask</div>
+            <div class="skill">Spring Boot</div>
+            <div class="skill">Deep Learning</div>
+            
+            <!-- Add more skills as needed -->
+        </div>
+        <h2>Certificates</h2>
+        <div class="certificates-list">
+        <a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=noc19-cs07/NPTEL19CS07S61450854191000781.jpg" target="_blank" class="certificate">Programming in Java by NPTEL</a>
+    <a href="https://coursera.org/verify/specialization/8NXJG3BEBNOW" target="_blank" class="certificate">Deep Learning Specialization on coursera by Andrew NG</a>
+    <a href="https://coursera.org/verify/SYNHZYNV99TV" target="_blank" class="certificate">Calculus for Machine Learning and Data Science on coursera by Luis Serrano</a>
+    <a href="https://coursera.org/verify/JCNAPB0BC184" target="_blank" class="certificate">Mathematics for Machine Learning: Linear Algebra on coursera by Imperial College London</a>
+    <a href="#skills-certificates-section" class="certificate">NDG Linux Essentials course in the Cisco Networking Academy by Linux Professional Institute</a>
+    <a href="https://www.udemy.com/certificate/UC-c5043a66-abe4-4302-88cd-238e4fa1b39a/" target="_blank" class="certificate">Probability and Statistics Master on udemy by Krista King</a>
+
+            <!-- Add more certificates as needed -->
+        </div>
+        <div class="scroll-indicator">&#9660;</div>
+    </section>
+    <section id="work" class="section">
+        <div id="projects">
+            <!-- Project tiles -->
+            <div class="project-tile">
+                <div class="project-illustration">
+                    <img src="assets/Restaurant%20table%20management.webp" alt="Restaurant Table Management System">
+                </div>
+                <div class="project-title"><a href="https://shash-ank.github.io/restaurant-app/restaurant" target="_blank">Restaurant Table Management System</a></div>
+                <div class="project-details" style="display: none;">
+                    <ul>
+                        <li>The system dynamically loads menu and table data from JSON files and provides a
+                            user-friendly UI
+                            with search functionality. </li>
+                        <li>Users can drag and drop menu items onto tables to place orders, which are tracked using
+                            a Map to
+                            store order details like total bill, item count, and individual item specifics. Clicking
+                            on a
+                            table opens a modal for order modification, allowing real-time updates to item
+                            quantities and
+                            bill totals. </li>
+                        <li>The system also supports session management, where tables can be closed, generating a
+                            final bill
+                            and resetting the table's order data.</li>
+
+                        <li>This system uses event listeners, DOM manipulation, and data structures like Map to
+                            handle
+                            complex interactions between menu items, tables, and orders.</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="project-tile">
+                <div class="project-illustration">
+                    <img src="assets/Image%20based%20attendance%20system%20illustration.webp"
+                        alt="Image Based Attendance System">
+                </div>
+                <div class="project-title"><a href="#work">Image Based Attendance System</a></div>
+
+                <div class="project-details" style="display: none;">
+
+                    <ul>
+                        <li>The system loads user, class, and attendance data from a SQLite database and provides a
+                            responsive UI for managing attendance.</li>
+                        <li>Users register and log in using facial recognition (via the face_recognition library),
+                            where
+                            real-time webcam feeds are compared against stored image encodings for secure
+                            authentication.</li>
+                        <li>Admins can schedule classes, track attendance in real-time, and generate downloadable
+                            Excel
+                            reports summarizing attendance data.</li>
+                        <li>This system utilizes Flask as the web framework, SQLAlchemy for database interaction,
+                            Flask-WTF
+                            for form handling and validation, and Bootstrap for responsive design.</li>
+                        <li>It handles class scheduling, session management, and attendance tracking while
+                            dynamically
+                            generating reports using OpenPyXL for Excel output.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+            <div class="project-tile">
+                <div class="project-illustration">
+                    <img src="assets/photography%20service%20illustration.webp" alt="Photography Service App">
+                </div>
+                <div class="project-title"><a href="https://github.com/shash-ank/photography-service/tree/main/src/main" target="_blank">Photography Service App</a></div>
+
+                <div class="project-details" style="display: none;">
+                    <ul>
+                        <li>The platform allows customers to browse available photographers and book services for
+                            various events.</li>
+                        <li>It dynamically manages bookings, ensuring photographers are assigned based on
+                            availability and location.</li>
+                        <li>Real-time notifications keep photographers updated about their job assignments, and
+                            customers can
+                            modify their bookings directly within the platform.</li>
+                        <li>The system tracks and manages bookings using a relational database, while JWT-based
+                            authentication ensures secure customer and photographer interactions. </li>
+                        <li>Customers can track, update, or cancel their bookings, with changes reflected in
+                            real-time,
+                            ensuring up-to-date information for both customers and photographers.</li>
+                        <li>This application leverages RESTful APIs, event-driven architecture, and Spring Boot to
+                            handle
+                            complex workflows, ensuring efficient communication between customers, photographers,
+                            and the
+                            system.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div id="description">
+        </div>
+        <div class="scroll-indicator">&#9660;</div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="contact-grid">
+            <div class="contact-upper">
+                <h2>More About My Experience</h2>
+                <button id="resume-btn">View Resume</button>
+            </div>
+            <div class="contact-lower">
+                <h2>Contact & Presence</h2>
+                <p>View my other profiles/contact</p>
+                <div class="profile-links">
+                    <a id="profile-link" href="https://stackoverflow.com/users/11427296/novice" target="_blank">
+                        <i class="fab fa-stack-overflow"></i> Stack Overflow
+                    </a>
+                    <a id="profile-link" href="https://github.com/shash-ank" target="_blank">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a id="profile-link" href="https://www.freecodecamp.org/fcc91e434f4-1d18-4927-9c54-f80e1e75a8e6" target="_blank">
+                        freeCodeCamp <i class="fab fa-free-code-camp"></i>
+                    </a>
+                    <a id="profile-link" href="https://www.linkedin.com/in/krishna-shashank-y-b1b817225/" target="_blank">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Modal Dialog Element for the résumé -->
+ <dialog id="resume-dialog">
+    <h1>Krishna Shashank Yadava</h1>
+
+
+    <div class="skills">
+        <h2 class="section-title">Technical Skills</h2>
+        <p><strong>Programming & DB:</strong> Java, Python, C / C++, MySQL, Oracle, MongoDB, JavaScript, HTML, CSS
+        </p>
+        <p><strong>Frameworks & Tools:</strong> Spring, Spring boot, React, TestNG, Jupiter, Git</p>
+        <p><strong>Skills:</strong> Data structures and Algorithms, Data Visualization, Machine Learning</p>
+        <p><strong>Other Software:</strong> Apache Tomcat, Jenkins, Oracle VM, Git, SVN, JIRA, JFROG, MS Office</p>
+    </div>
+
+    <div class="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="clearfix">
+            <h3>Florida State University, FL <span class="date">Currently-employed</span></h3>
+            <p><strong>Researcher at Psychology Department</strong></p>
+        </div>
+        <ul>
+            <li>Currently involved in a research team to develop a complementary and alternative medicine to
+                diagnose and treat ADHD using deep learning.</li>
+            <li>Using VGG-16 and a custom Deep Convolutional Neural Network to predict children's attention and
+                impulsive behavior.</li>
+        </ul>
+        <div class="clearfix">
+            <h3>Zemoso Technologies, Hyderabad <span class="date">Nov 2021 - Mar 2023</span></h3>
+            <p><strong>Software Engineer</strong></p>
+        </div>
+        <ul>
+            <li>Developed and scaled a spring boot powered payment system using agile methodologies for eBay Inc., a
+                Zemoso client.</li>
+            <li>Created new features, built RESTful Web API services, and fixed high-priority production issues.
+            </li>
+            <li>Developed a JavaScript service to retrieve approximately 25,000 transactions per hour and applied
+                various filters to the data.</li>
+            <li>Built and maintained automated regression test cases using Selenium WebDriver and Cucumber
+                framework.</li>
+        </ul>
+    </div>
+
+    <div class="education">
+        <h2 class="section-title">Education</h2>
+        <div class="clearfix">
+            <h3>Florida State University, Tallahassee <span class="date">May 2025</span></h3>
+            <p>Master of Science (M.S.) in Computer Science<br>GPA: 3.66/4</p>
+        </div>
+        <div class="clearfix">
+            <h3>Vidya Jyothi Institute of Technology, Hyderabad <span class="date">Jul 2021</span></h3>
+            <p>Bachelor of Technology (B.Tech.) in Computer Science and Engineering<br>GPA: 7.92/10</p>
+        </div>
+    </div>
+
+    <div class="projects">
+        <h2 class="section-title">Academic Projects</h2>
+        <div class="clearfix">
+            <h3>Image-Based Attendance System, Developer</h3>
+            <p><em>Technologies Used:</em> Python with Flask framework, HTML, CSS, JavaScript, and PyPI's
+                face-recognition project.</p>
+        </div>
+        <ul>
+            <li>Developed an image-based attendance system to mark student attendance by capturing and recognizing
+                student photos.</li>
+            <li>Built using algorithms like Histogram of Oriented Gradients, Face Landmark Estimation, and a simple
+                linear SVM classifier.</li>
+        </ul>
+    </div>
+
+    <div class="certifications">
+        <h2 class="section-title">Certifications & Other Experiences</h2>
+        <ul>
+            <li>Obtained Elite Certificate by NPTEL for Programming in Java.</li>
+            <li>Cleared Elite National Talent Hunt 2021, Coding contest held by Wipro Ltd.</li>
+            <li>Completed Deep Learning Specialization by Andrew Ng on Coursera.</li>
+        </ul>
+    </div>
+
+    <div class="activities">
+        <h2 class="section-title">Memberships & Activities</h2>
+        <ul>
+            <li>Active member in the programming community Stack Overflow, earning bronze and silver badges.</li>
+            <li>Served in the National Cadet Corps from 2015-2017 and passed with an A grade.</li>
+        </ul>
+    </div>
+
+    <!-- Close button for the dialog -->
+    <button class="close-resume" type="button">Close</button>
+</dialog>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
